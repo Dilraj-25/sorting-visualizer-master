@@ -8,6 +8,7 @@ for (let i = 0; i < n; i++) {
     ars[i] = arr[i];
     document.getElementById("bx1").innerHTML += arr[i] + " ";
 }
+
 let last = -1;
 let k = -1;
 function go() {
