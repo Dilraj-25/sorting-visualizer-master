@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sorting visualiser</title>
+    <link rel="stylesheet" href="./home.css">
+    <link rel="shortcut icon" type="icon" href="./favicon.png">
+</head>
+
+<body>
+    <h1 class="tt">easy_to_sort</h1>
+    <br><br><br>
+    <div class="ding">welcome</div>
+    <div class="ding">enjoy the viasulization of sorting algorithms</div>
+    <br><br>
+    
+    <br><br>
+    <button class="btncl" id="bt1" onclick="funct(1)">bubble sort</button>
+    <button class="btncl" id="bt2" onclick="funct(2)">insertion sort</button>
+    <button class="btncl" id="bt3" onclick="funct(3)">selection sort</button>
+    <br><br>
+    
+    <br><br>
+    
+</body>
+
+<script>
+    function funct(a) {
+        if (a == 1) window.open("./bubble.html", "_parent");
+        if (a == 2) window.open("./insertion.html", "_parent");
+        if (a == 3) window.open("./selection.html", "_parent");
+    
+    }
+</script>
+
+</html>
